@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='imgcash.conf'
 CONFIGFOLDER='/root/.imgcashcore'
