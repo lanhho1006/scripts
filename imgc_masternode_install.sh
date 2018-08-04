@@ -231,9 +231,9 @@ function important_information() {
   echo -e "Used according to GNU GPL 3.0 terms and conditions."
   echo
   echo -e "If you find it useful, please donate to the original author (${RED}zoldur${NC}):"
-  echo -e "  BTC: 3JLMt3tZQmAULvB1Q71zh7w54KdL82isCQ"
-  echo -e "  IMGC: MZLDRtjnuoZHbMXwcUdQcPA4xWPRqbUaWT"
-  echo -e "  LTC: LQ2yTmiuMZgFYisTs1ahvYWYbzt1unRbvM"
+  echo -e "  BTC: 3MNhbUq5smwMzxjU2UmTfeafPD7ag8kq76"
+  echo -e "  ETH: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E"
+  echo -e "  LTC: LeZmPXHuQEhkd8iZY7a2zVAwF7DCWir2FF"
   echo -e "${GREEN}================================================================================================================================${NC}"
 }
 
