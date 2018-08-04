@@ -13,14 +13,10 @@ COIN_NAME='ImgCash'
 COIN_SERVICE='imgcash'
 COIN_PORT=6888
 RPC_PORT=6889
-
 NODEIP=$(curl -s4 icanhazip.com)
-
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
-
-
 function checks() {
   if [[ $(lsb_release -d) != *16.04* ]] && [[ $(lsb_release -d) != *17.10* ]] && [[ $(lsb_release -d) != *18.04* ]]; then
     echo -e "${RED}You are not running Ubuntu 16.04 or 18.04. Installation is cancelled.${NC}"
